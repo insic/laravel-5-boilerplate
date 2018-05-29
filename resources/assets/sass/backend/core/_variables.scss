@@ -49,7 +49,7 @@ $navbar-border: (
 $navbar-brand-width:                  155px !default;
 $navbar-brand-bg:                     #fff !default;
 $navbar-brand-logo:                   url('../img/logo.png') !default;
-$navbar-brand-logo-size:              70px auto !default;
+$navbar-brand-logo-size:              110px auto !default;
 $navbar-brand-border: (
   bottom: (
     size:                             1px,
@@ -81,7 +81,7 @@ $sidebar-minimized-height:            $sidebar-minimized-width !default;
 $sidebar-compact-width:               150px !default;
 $sidebar-compact-height:              $sidebar-compact-width !default;
 $sidebar-color:                       #fff !default;
-$sidebar-bg:                          $gray-800 !default;
+$sidebar-bg:                          $nus-blue !default;
 $sidebar-borders:                     none !default;
 $mobile-sidebar-width:                220px !default;
 
@@ -109,7 +109,8 @@ $sidebar-nav-link-padding-y:          .75rem !default;
 $sidebar-nav-link-padding-x:          1rem !default;
 $sidebar-nav-link-color:              #fff !default;
 $sidebar-nav-link-bg:                 transparent !default;
-$sidebar-nav-link-icon-color:         $gray-600 !default;
+$sidebar-nav-link-icon-color:         $nus-orange !default;
+// $sidebar-nav-link-icon-color:      lighten($sidebar-bg, 35%) !default;
 $sidebar-nav-link-borders:            0 !default;
 
 $sidebar-nav-link-hover-color:        #fff !default;
@@ -118,8 +119,9 @@ $sidebar-nav-link-hover-icon-color:   #fff !default;
 $sidebar-nav-link-hover-borders:      0 !default;
 
 $sidebar-nav-link-active-color:       #fff !default;
-$sidebar-nav-link-active-bg:          lighten($sidebar-bg, 5%) !default;
-$sidebar-nav-link-active-icon-color:  theme-color("primary") !default;
+$sidebar-nav-link-active-bg:          $nus-orange !default;
+// $sidebar-nav-link-active-bg:       lighten($sidebar-bg, 5%) !default;
+$sidebar-nav-link-active-icon-color:  $white !default;
 $sidebar-nav-link-active-borders:     0 !default;
 
 $sidebar-nav-dropdown-color:          #fff !default;

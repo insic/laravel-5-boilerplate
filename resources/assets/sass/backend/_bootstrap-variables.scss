@@ -27,6 +27,10 @@ $green:                           #4dbd74;
 $teal:                            #20c997 !default;
 $cyan:                            #63c2de;
 
+//NUS Colors
+$nus-blue:                         #003d7c;
+$nus-orange:                       #ff8718;
+
 $colors: (
   blue:                           $blue,
   indigo:                         $indigo,
@@ -40,12 +44,14 @@ $colors: (
   cyan:                           $cyan,
   white:                          $white,
   gray:                           $gray-600,
-  gray-dark:                      $gray-800
+  gray-dark:                      $gray-800,
+  nus-blue:                       $nus-blue,
+  nus-orange:                     $nus-orange,
 );
 
 $theme-colors: (
-  primary:                        $blue,
-  secondary:                      $gray-300,
+  primary:                        $nus-orange,
+  secondary:                      $nus-orange,
   success:                        $green,
   info:                           $cyan,
   warning:                        $yellow,
