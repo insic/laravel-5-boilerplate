@@ -1,12 +1,117 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a8a9856017e0ab58d9ee51444d2786cd",
-    "content-hash": "b8453c8f02ca3382e6de48f57b41b84e",
+    "hash": "33afc22aee039174ebf81f6b7e9f89a6",
+    "content-hash": "d986abcb35584021b94011100820200c",
     "packages": [
+        {
+            "name": "adldap2/adldap2",
+            "version": "v8.1.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Adldap2/Adldap2.git",
+                "reference": "54722408c68f12942fcbf4a1b666d90a178ddc5c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Adldap2/Adldap2/zipball/54722408c68f12942fcbf4a1b666d90a178ddc5c",
+                "reference": "54722408c68f12942fcbf4a1b666d90a178ddc5c",
+                "shasum": ""
+            },
+            "require": {
+                "ext-ldap": "*",
+                "illuminate/support": "~5.0",
+                "php": ">=5.5.9"
+            },
+            "require-dev": {
+                "mockery/mockery": "~0.9|~1.0",
+                "phpunit/phpunit": "~4.8|~5.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Adldap\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Bauman",
+                    "email": "steven_bauman@outlook.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A PHP LDAP Package for humans.",
+            "keywords": [
+                "active directory",
+                "ad",
+                "adLDAP",
+                "adldap2",
+                "directory",
+                "ldap",
+                "windows"
+            ],
+            "time": "2018-04-19 15:06:54"
+        },
+        {
+            "name": "adldap2/adldap2-laravel",
+            "version": "v4.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Adldap2/Adldap2-Laravel.git",
+                "reference": "a48185cb302304e230d6109a7961e920a05ad065"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Adldap2/Adldap2-Laravel/zipball/a48185cb302304e230d6109a7961e920a05ad065",
+                "reference": "a48185cb302304e230d6109a7961e920a05ad065",
+                "shasum": ""
+            },
+            "require": {
+                "adldap2/adldap2": "^8.0",
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "~1.0",
+                "orchestra/testbench": "~3.2",
+                "phpunit/phpunit": "~6.0"
+            },
+            "type": "project",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Adldap\\Laravel\\AdldapServiceProvider",
+                        "Adldap\\Laravel\\AdldapAuthServiceProvider"
+                    ],
+                    "aliases": {
+                        "Adldap": "Adldap\\Laravel\\Facades\\Adldap"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Adldap\\Laravel\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "LDAP Authentication & Management for Laravel.",
+            "keywords": [
+                "adLDAP",
+                "adldap2",
+                "laravel",
+                "ldap"
+            ],
+            "time": "2018-02-17 00:33:05"
+        },
         {
             "name": "appstract/laravel-blade-directives",
             "version": "0.4.6",
@@ -2652,7 +2757,7 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "https://symfony.com",
-            "time": "2018-05-25T13:32:52+00:00"
+            "time": "2018-05-25 13:32:52"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -2707,7 +2812,7 @@
                 "polyfill",
                 "portable"
             ],
-            "time": "2018-04-30T19:57:29+00:00"
+            "time": "2018-04-30 19:57:29"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -3472,7 +3577,7 @@
                 "package",
                 "php"
             ],
-            "time": "2018-05-17T01:34:14+00:00"
+            "time": "2018-05-17 01:34:14"
         },
         {
             "name": "codedungeon/phpunit-result-printer",
